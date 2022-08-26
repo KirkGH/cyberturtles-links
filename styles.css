@@ -45,7 +45,9 @@ ul {
 }
 
 ul > li {
-    background-color: black;
+    background-color: #000a;
+    backdrop-filter: blur(10px) saturation(160%) contrast(180%);
+    -webkit-backdrop-filter: blur(10px) saturation(160%) contrast(180%);
     border-radius: 10em;
     padding: 1em;
     margin: 1.4em 0;
